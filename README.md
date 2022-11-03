@@ -8,3 +8,10 @@ This prototype game uses a three js example -- https://threejs.org/examples/?q=w
 
 * Play the latest `main` branch build online: https://deathraygames.github.io/three-js-boat-prototype/dist/
 * Or run in locally by downloading or cloning the repo, running `npm run serve`, then going to http://127.0.0.1:5173/
+
+## Controls
+
+* W and S to increase or decrease throttle
+* A and D to turn
+* E to fire cannon
+* Z and X to adjust cannon angle up or down
