@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+}
+
+canvas { /* Will be reset by Renderer.js */
+    image-rendering: pixelated;
+    width: 100%;
+}
