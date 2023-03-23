@@ -1,7 +1,7 @@
 import GridEntity from './GridEntity.js';
 import Cannonball from './Cannonball.js';
 import Cooldown from './Cooldown.js';
-import clamp from './clamp.js';
+import clamp from 'rocket-boots-three-toolbox/src/clamp.js';
 import * as THREE from 'three';
 
 const HALF_PI = Math.PI / 2;

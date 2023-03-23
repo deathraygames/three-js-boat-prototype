@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 // import { BoxHelper } from 'three/src/helpers/BoxHelper.js';
-import Renderer from './Renderer.js';
+import Renderer from 'rocket-boots-three-toolbox/src/Renderer.js';
 import RealityGrid from './RealityGrid.js';
 import GameSky from './GameSky.js';
 import GameWater from './GameWater.js';
@@ -11,10 +11,10 @@ import Boat from './Boat.js';
 import Crate from './Crate.js';
 import GridEntity from './GridEntity.js';
 import BrainBoat from './BrainBoat.js';
-import ThirdPersonCamera from './ThirdPersonCamera.js';
+import ThirdPersonCamera from 'rocket-boots-three-toolbox/src/ThirdPersonCamera.js';
 // Using little.js for it's keyboard inputs
 import { keyIsDown } from './libs/engine.all.js';
-import MouseWheelWatcher from './MouseWheelWatcher.js';
+import MouseWheelWatcher from 'rocket-boots-three-toolbox/src/MouseWheelWatcher.js';
 
 // const NOOP = () => {};
 const MAP_SIZE = 5000; // Modify this as needed
